@@ -1,7 +1,7 @@
 {
     "name": "datashaman/tongs-example",
-    "description": "Tongs example",
     "type": "project",
+    "description": "Tongs example",
     "license": "MIT",
     "authors": [
         {
@@ -9,8 +9,10 @@
             "email": "marlinf@datashaman.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "datashaman/tongs": "dev-master"
-    }
+        "datashaman/tongs": "^0.2.4",
+        "datashaman/tongs-more": "^0.1.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
