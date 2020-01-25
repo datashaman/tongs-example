@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "datashaman/tongs": "^0.2.4",
+        "datashaman/tongs": "^0.2.5",
         "datashaman/tongs-more": "^0.1.1"
     },
     "minimum-stability": "dev",

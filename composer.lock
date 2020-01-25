@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10a7ffb4677cf81c36431570e8410770",
+    "content-hash": "a29adc5fa92df9ef8cee0a0a85ba6078",
     "packages": [
         {
             "name": "datashaman/tongs",
-            "version": "0.2.4",
+            "version": "0.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs.git",
-                "reference": "bcf97335c8d428313c7c18f4994ec506f9307eea"
+                "reference": "6a198eea97262f4735164e62232b53693b526e66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs/zipball/bcf97335c8d428313c7c18f4994ec506f9307eea",
-                "reference": "bcf97335c8d428313c7c18f4994ec506f9307eea",
+                "url": "https://api.github.com/repos/datashaman/tongs/zipball/6a198eea97262f4735164e62232b53693b526e66",
+                "reference": "6a198eea97262f4735164e62232b53693b526e66",
                 "shasum": ""
             },
             "require": {
@@ -74,7 +74,7 @@
                 "metalsmith",
                 "static site generator"
             ],
-            "time": "2020-01-24T20:12:10+00:00"
+            "time": "2020-01-25T09:51:00+00:00"
         },
         {
             "name": "datashaman/tongs-more",
