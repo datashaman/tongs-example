@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "datashaman/tongs-feed",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-feed.git",
-                "reference": "c890663f50421dd7d9f1b35c07073e6c2a54fc41"
+                "reference": "600250d3ba8e59f83e6719e7022ac6e6a886cacc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-feed/zipball/c890663f50421dd7d9f1b35c07073e6c2a54fc41",
-                "reference": "c890663f50421dd7d9f1b35c07073e6c2a54fc41",
+                "url": "https://api.github.com/repos/datashaman/tongs-feed/zipball/600250d3ba8e59f83e6719e7022ac6e6a886cacc",
+                "reference": "600250d3ba8e59f83e6719e7022ac6e6a886cacc",
                 "shasum": ""
             },
             "require-dev": {
@@ -48,20 +48,28 @@
                 }
             ],
             "description": "Feed plugin for Tongs",
-            "time": "2020-01-26T07:36:55+00:00"
+            "keywords": [
+                "laravel",
+                "ssg",
+                "static-site",
+                "static-site-generator",
+                "tongs",
+                "tongs-plugin"
+            ],
+            "time": "2020-01-26T12:04:55+00:00"
         },
         {
             "name": "datashaman/tongs-metadata",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-metadata.git",
-                "reference": "f7fd714e4144a27403daf5feaf9b49a4b33e72ec"
+                "reference": "5e21a2a92481c9feb1e62a592cac48d68fb4bca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-metadata/zipball/f7fd714e4144a27403daf5feaf9b49a4b33e72ec",
-                "reference": "f7fd714e4144a27403daf5feaf9b49a4b33e72ec",
+                "url": "https://api.github.com/repos/datashaman/tongs-metadata/zipball/5e21a2a92481c9feb1e62a592cac48d68fb4bca0",
+                "reference": "5e21a2a92481c9feb1e62a592cac48d68fb4bca0",
                 "shasum": ""
             },
             "require": {
@@ -95,20 +103,28 @@
                 }
             ],
             "description": "Metadata plugin for Tongs",
-            "time": "2020-01-26T07:38:44+00:00"
+            "keywords": [
+                "laravel",
+                "ssg",
+                "static-site",
+                "static-site-generator",
+                "tongs",
+                "tongs-plugin"
+            ],
+            "time": "2020-01-26T12:04:15+00:00"
         },
         {
             "name": "datashaman/tongs-more",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-more.git",
-                "reference": "7351a8c895aa1e615872c6c4d902e81d0e829aa7"
+                "reference": "f608d311377ea458b871f9812021023562625895"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-more/zipball/7351a8c895aa1e615872c6c4d902e81d0e829aa7",
-                "reference": "7351a8c895aa1e615872c6c4d902e81d0e829aa7",
+                "url": "https://api.github.com/repos/datashaman/tongs-more/zipball/f608d311377ea458b871f9812021023562625895",
+                "reference": "f608d311377ea458b871f9812021023562625895",
                 "shasum": ""
             },
             "require-dev": {
@@ -139,20 +155,28 @@
                 }
             ],
             "description": "More plugin for Tongs",
-            "time": "2020-01-26T07:37:50+00:00"
+            "keywords": [
+                "laravel",
+                "ssg",
+                "static-site",
+                "static-site-generator",
+                "tongs",
+                "tongs-plugin"
+            ],
+            "time": "2020-01-26T12:02:15+00:00"
         },
         {
             "name": "datashaman/tongs-permalinks",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-permalinks.git",
-                "reference": "db0b3d63ae6a579090d63a3b1728ba7a29718125"
+                "reference": "b882642abf6166d97ae652e026a29022cb5601dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/db0b3d63ae6a579090d63a3b1728ba7a29718125",
-                "reference": "db0b3d63ae6a579090d63a3b1728ba7a29718125",
+                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/b882642abf6166d97ae652e026a29022cb5601dc",
+                "reference": "b882642abf6166d97ae652e026a29022cb5601dc",
                 "shasum": ""
             },
             "require-dev": {
@@ -183,7 +207,15 @@
                 }
             ],
             "description": "Permalinks plugin for Tongs",
-            "time": "2020-01-26T11:29:26+00:00"
+            "keywords": [
+                "laravel",
+                "ssg",
+                "static-site",
+                "static-site-generator",
+                "tongs",
+                "tongs-plugin"
+            ],
+            "time": "2020-01-26T12:02:45+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -306,16 +338,16 @@
     "packages-dev": [
         {
             "name": "datashaman/tongs",
-            "version": "0.3.2",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs.git",
-                "reference": "dfa1f300015d680977664aab5cd0dfb11951db58"
+                "reference": "e7b45942a57fafa4833ef2090c208fb3ae7d8a68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs/zipball/dfa1f300015d680977664aab5cd0dfb11951db58",
-                "reference": "dfa1f300015d680977664aab5cd0dfb11951db58",
+                "url": "https://api.github.com/repos/datashaman/tongs/zipball/e7b45942a57fafa4833ef2090c208fb3ae7d8a68",
+                "reference": "e7b45942a57fafa4833ef2090c208fb3ae7d8a68",
                 "shasum": ""
             },
             "require": {
@@ -370,9 +402,12 @@
                 "cli",
                 "laravel",
                 "metalsmith",
-                "static site generator"
+                "ssg",
+                "static-site",
+                "static-site-generator",
+                "tongs"
             ],
-            "time": "2020-01-26T08:58:15+00:00"
+            "time": "2020-01-26T12:05:49+00:00"
         },
         {
             "name": "doctrine/inflector",
