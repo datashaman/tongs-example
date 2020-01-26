@@ -21,3 +21,7 @@ Generate the build folder:
 Serve the build folder:
 
     php artisan serve -S localhost:8080 -t build
+
+## source
+
+The source for this example site was taken from the [static site samples](https://github.com/remotesynth/Static-Site-Samples) repository, using a slightly modified [metalsmith](https://metalsmith.io) sample.
