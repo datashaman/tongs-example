@@ -10,11 +10,11 @@
         }
     ],
     "require": {
-        "datashaman/tongs": "^0.2.10",
-        "datashaman/tongs-feed": "^0.1.2",
-        "datashaman/tongs-metadata": "^0.1.1",
-        "datashaman/tongs-more": "^0.1.1",
-        "datashaman/tongs-permalinks": "^0.1.1"
+        "datashaman/tongs": "0.3.*",
+        "datashaman/tongs-feed": "0.3.*",
+        "datashaman/tongs-metadata": "0.3.*",
+        "datashaman/tongs-more": "0.3.*",
+        "datashaman/tongs-permalinks": "0.3.*"
     },
     "config": {
         "optimize-autoloader": true,

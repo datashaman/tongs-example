@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0941be615eeb4bd979a0882275612c0f",
+    "content-hash": "7b38f6303b58a6e960cd09183a511d34",
     "packages": [
         {
             "name": "datashaman/tongs",
-            "version": "0.2.10",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs.git",
-                "reference": "74942755a8e32caae087ed7d9161afd4674ae117"
+                "reference": "7e0a2126110fbcf8419e1a0e1d6f351ea40474d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs/zipball/74942755a8e32caae087ed7d9161afd4674ae117",
-                "reference": "74942755a8e32caae087ed7d9161afd4674ae117",
+                "url": "https://api.github.com/repos/datashaman/tongs/zipball/7e0a2126110fbcf8419e1a0e1d6f351ea40474d6",
+                "reference": "7e0a2126110fbcf8419e1a0e1d6f351ea40474d6",
                 "shasum": ""
             },
             "require": {
@@ -47,6 +47,7 @@
                         "drafts": "Datashaman\\Tongs\\Plugins\\DraftsPlugin",
                         "markdown": "Datashaman\\Tongs\\Plugins\\MarkdownPlugin",
                         "sass": "Datashaman\\Tongs\\Plugins\\SassPlugin",
+                        "serve": "Datashaman\\Tongs\\Plugins\\ServePlugin",
                         "views": "Datashaman\\Tongs\\Plugins\\ViewsPlugin"
                     }
                 }
@@ -73,26 +74,24 @@
                 "metalsmith",
                 "static site generator"
             ],
-            "time": "2020-01-26T05:45:42+00:00"
+            "time": "2020-01-26T07:55:35+00:00"
         },
         {
             "name": "datashaman/tongs-feed",
-            "version": "0.1.2",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-feed.git",
-                "reference": "eac014105333f15c384b9d91af381feb852da36b"
+                "reference": "c890663f50421dd7d9f1b35c07073e6c2a54fc41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-feed/zipball/eac014105333f15c384b9d91af381feb852da36b",
-                "reference": "eac014105333f15c384b9d91af381feb852da36b",
+                "url": "https://api.github.com/repos/datashaman/tongs-feed/zipball/c890663f50421dd7d9f1b35c07073e6c2a54fc41",
+                "reference": "c890663f50421dd7d9f1b35c07073e6c2a54fc41",
                 "shasum": ""
             },
-            "require": {
-                "datashaman/tongs": "^0.2.5"
-            },
             "require-dev": {
+                "datashaman/tongs": "0.3.*",
                 "phpunit/phpunit": "^8.5"
             },
             "type": "library",
@@ -119,27 +118,27 @@
                 }
             ],
             "description": "Feed plugin for Tongs",
-            "time": "2020-01-26T04:01:31+00:00"
+            "time": "2020-01-26T07:36:55+00:00"
         },
         {
             "name": "datashaman/tongs-metadata",
-            "version": "0.1.1",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-metadata.git",
-                "reference": "6052f777c9f53897c09349f50401f9d695d7164a"
+                "reference": "f7fd714e4144a27403daf5feaf9b49a4b33e72ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-metadata/zipball/6052f777c9f53897c09349f50401f9d695d7164a",
-                "reference": "6052f777c9f53897c09349f50401f9d695d7164a",
+                "url": "https://api.github.com/repos/datashaman/tongs-metadata/zipball/f7fd714e4144a27403daf5feaf9b49a4b33e72ec",
+                "reference": "f7fd714e4144a27403daf5feaf9b49a4b33e72ec",
                 "shasum": ""
             },
             "require": {
                 "symfony/yaml": "^4.0"
             },
             "require-dev": {
-                "datashaman/tongs": "^0.2.5",
+                "datashaman/tongs": "0.3.*",
                 "phpunit/phpunit": "^8.5"
             },
             "type": "library",
@@ -166,24 +165,24 @@
                 }
             ],
             "description": "Metadata plugin for Tongs",
-            "time": "2020-01-25T11:23:06+00:00"
+            "time": "2020-01-26T07:38:44+00:00"
         },
         {
             "name": "datashaman/tongs-more",
-            "version": "0.1.1",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-more.git",
-                "reference": "dcca79f72bc3033a6b534f63f95c346068345170"
+                "reference": "7351a8c895aa1e615872c6c4d902e81d0e829aa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-more/zipball/dcca79f72bc3033a6b534f63f95c346068345170",
-                "reference": "dcca79f72bc3033a6b534f63f95c346068345170",
+                "url": "https://api.github.com/repos/datashaman/tongs-more/zipball/7351a8c895aa1e615872c6c4d902e81d0e829aa7",
+                "reference": "7351a8c895aa1e615872c6c4d902e81d0e829aa7",
                 "shasum": ""
             },
             "require-dev": {
-                "datashaman/tongs": "^0.2.1",
+                "datashaman/tongs": "0.3.*",
                 "phpunit/phpunit": "^8.5"
             },
             "type": "library",
@@ -210,24 +209,24 @@
                 }
             ],
             "description": "More plugin for Tongs",
-            "time": "2020-01-24T18:22:10+00:00"
+            "time": "2020-01-26T07:37:50+00:00"
         },
         {
             "name": "datashaman/tongs-permalinks",
-            "version": "0.1.1",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-permalinks.git",
-                "reference": "938f531019403b2a5f0a900578aa0b22f8179cea"
+                "reference": "94f7e85ef508d2e3d8498123628a996ef7d1c2d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/938f531019403b2a5f0a900578aa0b22f8179cea",
-                "reference": "938f531019403b2a5f0a900578aa0b22f8179cea",
+                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/94f7e85ef508d2e3d8498123628a996ef7d1c2d2",
+                "reference": "94f7e85ef508d2e3d8498123628a996ef7d1c2d2",
                 "shasum": ""
             },
             "require-dev": {
-                "datashaman/tongs": "^0.2"
+                "datashaman/tongs": "0.3.*"
             },
             "type": "library",
             "extra": {
@@ -253,7 +252,7 @@
                 }
             ],
             "description": "Permalinks plugin for Tongs",
-            "time": "2020-01-25T12:02:41+00:00"
+            "time": "2020-01-26T07:38:07+00:00"
         },
         {
             "name": "doctrine/inflector",
