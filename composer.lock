@@ -4,78 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b38f6303b58a6e960cd09183a511d34",
+    "content-hash": "2edf1f0f649f4808fcaf7c8b141460bb",
     "packages": [
-        {
-            "name": "datashaman/tongs",
-            "version": "0.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/datashaman/tongs.git",
-                "reference": "dfa1f300015d680977664aab5cd0dfb11951db58"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs/zipball/dfa1f300015d680977664aab5cd0dfb11951db58",
-                "reference": "dfa1f300015d680977664aab5cd0dfb11951db58",
-                "shasum": ""
-            },
-            "require": {
-                "erusev/parsedown": "^1.7",
-                "illuminate/log": "^6.0",
-                "illuminate/pipeline": "^6.12",
-                "illuminate/view": "^6.12",
-                "laravel-zero/framework": "^6.0",
-                "php": "^7.2",
-                "symfony/filesystem": "^4.0",
-                "symfony/finder": "^4.3.4",
-                "symfony/process": "^4.3",
-                "webuni/front-matter": "^1.1"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^8.0"
-            },
-            "bin": [
-                "tongs"
-            ],
-            "type": "project",
-            "extra": {
-                "tongs": {
-                    "plugins": {
-                        "collections": "Datashaman\\Tongs\\Plugins\\CollectionsPlugin",
-                        "drafts": "Datashaman\\Tongs\\Plugins\\DraftsPlugin",
-                        "markdown": "Datashaman\\Tongs\\Plugins\\MarkdownPlugin",
-                        "sass": "Datashaman\\Tongs\\Plugins\\SassPlugin",
-                        "serve": "Datashaman\\Tongs\\Plugins\\ServePlugin",
-                        "views": "Datashaman\\Tongs\\Plugins\\ViewsPlugin"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\": "app/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marlin Forbes",
-                    "email": "marlinf@datashaman.com"
-                }
-            ],
-            "description": "Metalsmith-alike for Laravel.",
-            "keywords": [
-                "cli",
-                "laravel",
-                "metalsmith",
-                "static site generator"
-            ],
-            "time": "2020-01-26T08:58:15+00:00"
-        },
         {
             "name": "datashaman/tongs-feed",
             "version": "0.3.0",
@@ -213,20 +143,21 @@
         },
         {
             "name": "datashaman/tongs-permalinks",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-permalinks.git",
-                "reference": "94f7e85ef508d2e3d8498123628a996ef7d1c2d2"
+                "reference": "db0b3d63ae6a579090d63a3b1728ba7a29718125"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/94f7e85ef508d2e3d8498123628a996ef7d1c2d2",
-                "reference": "94f7e85ef508d2e3d8498123628a996ef7d1c2d2",
+                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/db0b3d63ae6a579090d63a3b1728ba7a29718125",
+                "reference": "db0b3d63ae6a579090d63a3b1728ba7a29718125",
                 "shasum": ""
             },
             "require-dev": {
-                "datashaman/tongs": "0.3.*"
+                "datashaman/tongs": "0.3.*",
+                "phpunit/phpunit": "^8.5"
             },
             "type": "library",
             "extra": {
@@ -252,7 +183,196 @@
                 }
             ],
             "description": "Permalinks plugin for Tongs",
-            "time": "2020-01-26T07:38:07+00:00"
+            "time": "2020-01-26T11:29:26+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.13-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2019-11-27T13:56:44+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v4.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "cd014e425b3668220adb865f53bff64b3ad21767"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/cd014e425b3668220adb865f53bff64b3ad21767",
+                "reference": "cd014e425b3668220adb865f53bff64b3ad21767",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "conflict": {
+                "symfony/console": "<3.4"
+            },
+            "require-dev": {
+                "symfony/console": "^3.4|^4.0|^5.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2020-01-21T11:12:16+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "datashaman/tongs",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datashaman/tongs.git",
+                "reference": "dfa1f300015d680977664aab5cd0dfb11951db58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datashaman/tongs/zipball/dfa1f300015d680977664aab5cd0dfb11951db58",
+                "reference": "dfa1f300015d680977664aab5cd0dfb11951db58",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "^1.7",
+                "illuminate/log": "^6.0",
+                "illuminate/pipeline": "^6.12",
+                "illuminate/view": "^6.12",
+                "laravel-zero/framework": "^6.0",
+                "php": "^7.2",
+                "symfony/filesystem": "^4.0",
+                "symfony/finder": "^4.3.4",
+                "symfony/process": "^4.3",
+                "webuni/front-matter": "^1.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "bin": [
+                "tongs"
+            ],
+            "type": "project",
+            "extra": {
+                "tongs": {
+                    "plugins": {
+                        "collections": "Datashaman\\Tongs\\Plugins\\CollectionsPlugin",
+                        "drafts": "Datashaman\\Tongs\\Plugins\\DraftsPlugin",
+                        "markdown": "Datashaman\\Tongs\\Plugins\\MarkdownPlugin",
+                        "sass": "Datashaman\\Tongs\\Plugins\\SassPlugin",
+                        "serve": "Datashaman\\Tongs\\Plugins\\ServePlugin",
+                        "views": "Datashaman\\Tongs\\Plugins\\ViewsPlugin"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\": "app/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marlin Forbes",
+                    "email": "marlinf@datashaman.com"
+                }
+            ],
+            "description": "Metalsmith-alike for Laravel.",
+            "keywords": [
+                "cli",
+                "laravel",
+                "metalsmith",
+                "static site generator"
+            ],
+            "time": "2020-01-26T08:58:15+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -2190,64 +2310,6 @@
             "time": "2020-01-04T13:00:46+00:00"
         },
         {
-            "name": "symfony/polyfill-ctype",
-            "version": "v1.13.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "suggest": {
-                "ext-ctype": "For best performance"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.13-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
-                "files": [
-                    "bootstrap.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill for ctype functions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "ctype",
-                "polyfill",
-                "portable"
-            ],
-            "time": "2019-11-27T13:56:44+00:00"
-        },
-        {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.13.1",
             "source": {
@@ -2737,65 +2799,6 @@
             "time": "2020-01-04T13:00:46+00:00"
         },
         {
-            "name": "symfony/yaml",
-            "version": "v4.4.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/yaml.git",
-                "reference": "cd014e425b3668220adb865f53bff64b3ad21767"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/cd014e425b3668220adb865f53bff64b3ad21767",
-                "reference": "cd014e425b3668220adb865f53bff64b3ad21767",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3",
-                "symfony/polyfill-ctype": "~1.8"
-            },
-            "conflict": {
-                "symfony/console": "<3.4"
-            },
-            "require-dev": {
-                "symfony/console": "^3.4|^4.0|^5.0"
-            },
-            "suggest": {
-                "symfony/console": "For validating YAML files using the lint command"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Yaml\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Yaml Component",
-            "homepage": "https://symfony.com",
-            "time": "2020-01-21T11:12:16+00:00"
-        },
-        {
             "name": "vlucas/phpdotenv",
             "version": "v3.6.0",
             "source": {
@@ -2921,7 +2924,6 @@
             "time": "2018-03-20T13:36:33+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": [],

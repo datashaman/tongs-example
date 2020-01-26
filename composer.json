@@ -1,26 +1,35 @@
 {
-    "name": "datashaman/tongs-example",
-    "type": "project",
-    "description": "Tongs example",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Marlin Forbes",
-            "email": "marlinf@datashaman.com"
-        }
-    ],
-    "require": {
-        "datashaman/tongs": "0.3.*",
-        "datashaman/tongs-feed": "0.3.*",
-        "datashaman/tongs-metadata": "0.3.*",
-        "datashaman/tongs-more": "0.3.*",
-        "datashaman/tongs-permalinks": "0.3.*"
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "datashaman/tongs-example",
+  "type": "project",
+  "description": "Tongs example",
+  "keywords": [
+    "laravel",
+    "ssg",
+    "static-site",
+    "static-site-generator",
+    "tongs"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marlin Forbes",
+      "email": "marlinf@datashaman.com"
+    }
+  ],
+  "require": {
+    "datashaman/tongs-feed": "0.3.*",
+    "datashaman/tongs-metadata": "0.3.*",
+    "datashaman/tongs-more": "0.3.*",
+    "datashaman/tongs-permalinks": "0.3.*"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "datashaman/tongs": "0.3.*"
+  }
 }
