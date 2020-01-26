@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "datashaman/tongs",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs.git",
-                "reference": "7e0a2126110fbcf8419e1a0e1d6f351ea40474d6"
+                "reference": "dfa1f300015d680977664aab5cd0dfb11951db58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs/zipball/7e0a2126110fbcf8419e1a0e1d6f351ea40474d6",
-                "reference": "7e0a2126110fbcf8419e1a0e1d6f351ea40474d6",
+                "url": "https://api.github.com/repos/datashaman/tongs/zipball/dfa1f300015d680977664aab5cd0dfb11951db58",
+                "reference": "dfa1f300015d680977664aab5cd0dfb11951db58",
                 "shasum": ""
             },
             "require": {
@@ -74,7 +74,7 @@
                 "metalsmith",
                 "static site generator"
             ],
-            "time": "2020-01-26T07:55:35+00:00"
+            "time": "2020-01-26T08:58:15+00:00"
         },
         {
             "name": "datashaman/tongs-feed",
