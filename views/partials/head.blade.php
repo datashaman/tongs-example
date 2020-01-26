@@ -13,5 +13,5 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/style-desktop.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
-    <link rel="alternate" type="application/rss+xml" title="{{$site['title']}}" href="feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{$site['title']}}" href="/feed.xml" />
 </head>
