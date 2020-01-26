@@ -1,4 +1,0 @@
----
-view: default
-isHome: true
----
