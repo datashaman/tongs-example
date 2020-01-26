@@ -1,25 +1,26 @@
-@extends('default')
+<!DOCTYPE html>
+<html>
+  @include('partials.head')
 
-@section('content')
-<section>
-  <article class="pure-g">
-    <div class="pure-u-1-6">
-        <a href="{{ $path }}"><time>{{ @$date ? $date->format('c') : '' }}</time></a>
-    </div>
+  <body>
+    @include('partials.header')
 
-    <div class="pure-u-5-6">
-      @if($contents)
-        <div class="e-content">
-          {!! $contents !!}
+    <!-- Main -->
+    <div id="main-wrapper">
+        <div class="container">
+           <!-- Content -->
+            <article class="box post">
+                <div class="image featured" style="background-image: url('/assets{{ $banner }}');"></div>
+                <header>
+                    <h2>{{ $title }}</h2>
+                    <p>{{ $shortdesc }}</p>
+                </header>
+                {!! $contents !!}
+            </article>
         </div>
-      @endif
-      @if(@$photos)
-        @include('partials.gallery', [
-            'photos' => $photos,
-            'height' => 300,
-        ])
-      @endif
     </div>
-  </article>
-</section>
-@endsection
+    @include('partials.footer')
+
+  </body>
+
+</html>

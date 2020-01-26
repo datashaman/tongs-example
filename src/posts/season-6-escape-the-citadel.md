@@ -1,5 +1,5 @@
 ---
-layout: post.html
+view: post
 title:  "Escape from the Citadel (Season 6)"
 date:   2014-04-21 10:33:56
 collection: episodes

@@ -1,5 +1,5 @@
 ---
-layout: post.html
+view: post
 title:  "James II (Season 6)"
 date:   2014-04-28 10:33:56
 collection: episodes

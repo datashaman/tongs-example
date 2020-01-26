@@ -10,8 +10,16 @@
         }
     ],
     "require": {
-        "datashaman/tongs": "^0.2.5",
-        "datashaman/tongs-more": "^0.1.1"
+        "datashaman/tongs": "^0.2.9",
+        "datashaman/tongs-feed": "^0.1.2",
+        "datashaman/tongs-metadata": "^0.1.1",
+        "datashaman/tongs-more": "^0.1.1",
+        "datashaman/tongs-permalinks": "^0.1.1"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
     },
     "minimum-stability": "dev",
     "prefer-stable": true

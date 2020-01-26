@@ -4,24 +4,23 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a29adc5fa92df9ef8cee0a0a85ba6078",
+    "content-hash": "aab22f224ade780b5199747c29f4ff3e",
     "packages": [
         {
             "name": "datashaman/tongs",
-            "version": "0.2.5",
+            "version": "0.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs.git",
-                "reference": "6a198eea97262f4735164e62232b53693b526e66"
+                "reference": "b3aa37e2f69ff54667bfb7820b4d83ed9e0d58fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs/zipball/6a198eea97262f4735164e62232b53693b526e66",
-                "reference": "6a198eea97262f4735164e62232b53693b526e66",
+                "url": "https://api.github.com/repos/datashaman/tongs/zipball/b3aa37e2f69ff54667bfb7820b4d83ed9e0d58fe",
+                "reference": "b3aa37e2f69ff54667bfb7820b4d83ed9e0d58fe",
                 "shasum": ""
             },
             "require": {
-                "datashaman/tongs-permalinks": "^0.1.0",
                 "erusev/parsedown": "^1.7",
                 "illuminate/log": "^6.0",
                 "illuminate/pipeline": "^6.12",
@@ -74,7 +73,100 @@
                 "metalsmith",
                 "static site generator"
             ],
-            "time": "2020-01-25T09:51:00+00:00"
+            "time": "2020-01-26T04:02:16+00:00"
+        },
+        {
+            "name": "datashaman/tongs-feed",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datashaman/tongs-feed.git",
+                "reference": "eac014105333f15c384b9d91af381feb852da36b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datashaman/tongs-feed/zipball/eac014105333f15c384b9d91af381feb852da36b",
+                "reference": "eac014105333f15c384b9d91af381feb852da36b",
+                "shasum": ""
+            },
+            "require": {
+                "datashaman/tongs": "^0.2.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "extra": {
+                "tongs": {
+                    "plugins": {
+                        "feed": "Datashaman\\Tongs\\Plugins\\FeedPlugin"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marlin Forbes",
+                    "email": "marlinf@datashamab.com"
+                }
+            ],
+            "description": "Feed plugin for Tongs",
+            "time": "2020-01-26T04:01:31+00:00"
+        },
+        {
+            "name": "datashaman/tongs-metadata",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datashaman/tongs-metadata.git",
+                "reference": "6052f777c9f53897c09349f50401f9d695d7164a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datashaman/tongs-metadata/zipball/6052f777c9f53897c09349f50401f9d695d7164a",
+                "reference": "6052f777c9f53897c09349f50401f9d695d7164a",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/yaml": "^4.0"
+            },
+            "require-dev": {
+                "datashaman/tongs": "^0.2.5",
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "extra": {
+                "tongs": {
+                    "plugins": {
+                        "metadata": "Datashaman\\Tongs\\Plugins\\MetadataPlugin"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marlin Forbes",
+                    "email": "marlinf@datashaman.com"
+                }
+            ],
+            "description": "Metadata plugin for Tongs",
+            "time": "2020-01-25T11:23:06+00:00"
         },
         {
             "name": "datashaman/tongs-more",
@@ -122,16 +214,16 @@
         },
         {
             "name": "datashaman/tongs-permalinks",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-permalinks.git",
-                "reference": "0ace5a236d8cf7db3bc76c2cab6b6b73024662ff"
+                "reference": "938f531019403b2a5f0a900578aa0b22f8179cea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/0ace5a236d8cf7db3bc76c2cab6b6b73024662ff",
-                "reference": "0ace5a236d8cf7db3bc76c2cab6b6b73024662ff",
+                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/938f531019403b2a5f0a900578aa0b22f8179cea",
+                "reference": "938f531019403b2a5f0a900578aa0b22f8179cea",
                 "shasum": ""
             },
             "require-dev": {
@@ -161,7 +253,7 @@
                 }
             ],
             "description": "Permalinks plugin for Tongs",
-            "time": "2020-01-24T10:51:34+00:00"
+            "time": "2020-01-25T12:02:41+00:00"
         },
         {
             "name": "doctrine/inflector",

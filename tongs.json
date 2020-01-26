@@ -2,7 +2,7 @@
   "metadata": {
     "site": {
       "title": "Adventure Time!",
-      "url": "localhost:8080",
+      "link": "http://localhost:8080/",
       "banner": "/assets/images/about.jpg"
     },
     "description": "Adventure Time is an American animated television series created by Pendleton Ward for Cartoon Network. The series follows the adventures of Finn, a human boy, and his best friend and adoptive brother Jake, a dog with magical powers to change shape and grow and shrink at will. Finn and Jake live in the post-apocalyptic Land of Ooo. Along the way, they interact with the other main characters of the show: Princess Bubblegum, The Ice King, and Marceline the Vampire Queen."
@@ -12,31 +12,29 @@
   "clean": true,
   "frontmatter": true,
   "plugins": {
-    "collections": {},
-    "markdown": {},
+    "markdown": true,
     "more": {
       "key": "excerpt"
-    },
-    "feed": {
-      "collection" : "featured"
     },
     "metadata": {
       "characters": "data/characters.yaml"
     },
     "permalinks": {
-      "pattern": "posts/:date/:title"
+      "pattern": ":date-:title/"
     },
-    "layouts": {
-      "engine": "handlebars",
-      "directory": "./layouts",
-      "partials": "layouts/partials"
+    "collections": true,
+    "feed": {
+      "collection" : "featured",
+      "feed": {
+        "title": "Adventure Time!",
+        "link": "http://localhost:8080/"
+      }
     },
-    "assets": {
-      "source": "./src/assets",
-      "destination": "./assets"
-    },
-    "serve": {
-      "port": 8080
+    "views": {
+      "paths": [
+        "views"
+      ],
+      "compiled": ".cache"
     }
   }
 }

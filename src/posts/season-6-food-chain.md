@@ -1,5 +1,5 @@
 ---
-layout: post.html
+view: post
 title:  "Food Chain (Season 6)"
 date:   2014-06-12 10:33:56
 collection: featured

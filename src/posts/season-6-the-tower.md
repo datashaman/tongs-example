@@ -1,5 +1,5 @@
 ---
-layout: post.html
+view: post
 title:  "The Tower (Season 6)"
 date:   2014-05-05 10:33:56
 collection: episodes

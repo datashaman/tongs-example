@@ -1,5 +1,5 @@
 ---
-layout: post.html
+view: post
 title:  "Sad Face (Season 6)"
 date:   2014-05-12 10:33:56
 collection: episodes

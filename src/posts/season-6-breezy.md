@@ -1,5 +1,5 @@
 ---
-layout: post.html
+view: post
 title:  "Breezy (Season 6)"
 date:   2014-06-05 10:33:56
 collection: featured
