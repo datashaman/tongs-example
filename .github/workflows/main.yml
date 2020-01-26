@@ -15,7 +15,7 @@ jobs:
       uses: shivammathur/setup-php@v1
       with:
         php-version: '7.3'
-    
+
     - name: Get Composer cache directory
       id: composer-cache
       run: echo "::set-output name=dir::$(composer config cache-files-dir)"
@@ -28,15 +28,20 @@ jobs:
         # key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
         key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
         restore-keys: ${{ runner.os }}-composer-
-    
+
     - name: Install Composer dependencies
       run: |
         composer install --no-progress --no-suggest --prefer-dist --optimize-autoloader
-        
-    - name: Install npm dependencies
-      run: |
-        npm install
-        
+
     - name: Build static site
       run: |
         vendor/bin/tongs
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2
+      env:
+        # ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./build
