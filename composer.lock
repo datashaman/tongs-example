@@ -115,16 +115,16 @@
         },
         {
             "name": "datashaman/tongs-more",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-more.git",
-                "reference": "f608d311377ea458b871f9812021023562625895"
+                "reference": "72bbdcf087b8391dddffb5f02c8b491258f20346"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-more/zipball/f608d311377ea458b871f9812021023562625895",
-                "reference": "f608d311377ea458b871f9812021023562625895",
+                "url": "https://api.github.com/repos/datashaman/tongs-more/zipball/72bbdcf087b8391dddffb5f02c8b491258f20346",
+                "reference": "72bbdcf087b8391dddffb5f02c8b491258f20346",
                 "shasum": ""
             },
             "require-dev": {
@@ -163,20 +163,20 @@
                 "tongs",
                 "tongs-plugin"
             ],
-            "time": "2020-01-26T12:02:15+00:00"
+            "time": "2020-01-26T12:11:01+00:00"
         },
         {
             "name": "datashaman/tongs-permalinks",
-            "version": "0.3.2",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs-permalinks.git",
-                "reference": "b882642abf6166d97ae652e026a29022cb5601dc"
+                "reference": "b55fa09d82144d915572ed70449727a1245416d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/b882642abf6166d97ae652e026a29022cb5601dc",
-                "reference": "b882642abf6166d97ae652e026a29022cb5601dc",
+                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/b55fa09d82144d915572ed70449727a1245416d0",
+                "reference": "b55fa09d82144d915572ed70449727a1245416d0",
                 "shasum": ""
             },
             "require-dev": {
@@ -215,7 +215,7 @@
                 "tongs",
                 "tongs-plugin"
             ],
-            "time": "2020-01-26T12:02:45+00:00"
+            "time": "2020-01-26T17:40:21+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -338,16 +338,16 @@
     "packages-dev": [
         {
             "name": "datashaman/tongs",
-            "version": "0.3.3",
+            "version": "0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs.git",
-                "reference": "e7b45942a57fafa4833ef2090c208fb3ae7d8a68"
+                "reference": "c58e6f6c53cea0e7524df9b303664f62148808a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs/zipball/e7b45942a57fafa4833ef2090c208fb3ae7d8a68",
-                "reference": "e7b45942a57fafa4833ef2090c208fb3ae7d8a68",
+                "url": "https://api.github.com/repos/datashaman/tongs/zipball/c58e6f6c53cea0e7524df9b303664f62148808a3",
+                "reference": "c58e6f6c53cea0e7524df9b303664f62148808a3",
                 "shasum": ""
             },
             "require": {
@@ -378,6 +378,7 @@
                         "markdown": "Datashaman\\Tongs\\Plugins\\MarkdownPlugin",
                         "sass": "Datashaman\\Tongs\\Plugins\\SassPlugin",
                         "serve": "Datashaman\\Tongs\\Plugins\\ServePlugin",
+                        "tap": "Datashaman\\Tongs\\Plugins\\TapPlugin",
                         "views": "Datashaman\\Tongs\\Plugins\\ViewsPlugin"
                     }
                 }
@@ -407,7 +408,7 @@
                 "static-site-generator",
                 "tongs"
             ],
-            "time": "2020-01-26T12:05:49+00:00"
+            "time": "2020-01-27T11:32:17+00:00"
         },
         {
             "name": "doctrine/inflector",
