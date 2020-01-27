@@ -20,7 +20,8 @@
     "datashaman/tongs-feed": "0.3.*",
     "datashaman/tongs-metadata": "0.3.*",
     "datashaman/tongs-more": "0.3.*",
-    "datashaman/tongs-permalinks": "0.3.*"
+    "datashaman/tongs-permalinks": "0.3.*",
+    "datashaman/tongs-sass": "0.3.*"
   },
   "config": {
     "optimize-autoloader": true,

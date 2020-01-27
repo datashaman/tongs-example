@@ -42,7 +42,7 @@
                                 <h2>Recent Episodes</h2>
                             </header>
                             <div class="row">
-                            @foreach($featured as $post)
+                            @foreach($collections['featured'] as $post)
                                 <div class="6u">
                                     <section class="box">
                                         <a href="{{ $post['path'] }}" class="image featured"><img src="/assets{{ $post['banner'] }}" alt="" /></a>

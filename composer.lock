@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2edf1f0f649f4808fcaf7c8b141460bb",
+    "content-hash": "5c1162b681005e4ce19bb2824d39d5aa",
     "packages": [
         {
             "name": "datashaman/tongs-feed",
@@ -218,6 +218,58 @@
             "time": "2020-01-26T17:40:21+00:00"
         },
         {
+            "name": "datashaman/tongs-sass",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datashaman/tongs-sass.git",
+                "reference": "5d0f41d3b7d612d94502454345214bbdfac90fe7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datashaman/tongs-sass/zipball/5d0f41d3b7d612d94502454345214bbdfac90fe7",
+                "reference": "5d0f41d3b7d612d94502454345214bbdfac90fe7",
+                "shasum": ""
+            },
+            "require-dev": {
+                "datashaman/tongs": "@dev",
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "extra": {
+                "tongs": {
+                    "plugins": {
+                        "sass": "Datashaman\\Tongs\\Plugins\\SassPlugin"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marlin Forbes",
+                    "email": "marlinf@datashaman.com"
+                }
+            ],
+            "description": "Sass plugin for Tongs",
+            "keywords": [
+                "laravel",
+                "ssg",
+                "static-site",
+                "static-site-generator",
+                "tongs",
+                "tongs-plugin"
+            ],
+            "time": "2020-01-27T17:12:24+00:00"
+        },
+        {
             "name": "symfony/polyfill-ctype",
             "version": "v1.13.1",
             "source": {
@@ -338,16 +390,16 @@
     "packages-dev": [
         {
             "name": "datashaman/tongs",
-            "version": "0.3.5",
+            "version": "0.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datashaman/tongs.git",
-                "reference": "c58e6f6c53cea0e7524df9b303664f62148808a3"
+                "reference": "7819438a4ffb6226ed241ab33440c6f053ee9768"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs/zipball/c58e6f6c53cea0e7524df9b303664f62148808a3",
-                "reference": "c58e6f6c53cea0e7524df9b303664f62148808a3",
+                "url": "https://api.github.com/repos/datashaman/tongs/zipball/7819438a4ffb6226ed241ab33440c6f053ee9768",
+                "reference": "7819438a4ffb6226ed241ab33440c6f053ee9768",
                 "shasum": ""
             },
             "require": {
@@ -408,7 +460,7 @@
                 "static-site-generator",
                 "tongs"
             ],
-            "time": "2020-01-27T11:32:17+00:00"
+            "time": "2020-01-27T15:52:08+00:00"
         },
         {
             "name": "doctrine/inflector",

@@ -8,7 +8,7 @@
                         <h2>More Episodes</h2>
                     </header>
                     <ul class="dates">
-                    @foreach($episodes as $episode)
+                    @foreach($collections['episodes'] as $episode)
                         <li>
                             <!-- this is a really bad idea, but a temporary hack -->
                                 <span class="date">{{ $episode['date']->format('M d') }}<strong>{{ $episode['date']->format('H:i') }}</strong></span>
