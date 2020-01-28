@@ -16,21 +16,63 @@
       "email": "marlinf@datashaman.com"
     }
   ],
-  "require": {
-    "datashaman/tongs-feed": "0.3.*",
-    "datashaman/tongs-metadata": "0.3.*",
-    "datashaman/tongs-more": "0.3.*",
-    "datashaman/tongs-permalinks": "0.3.*",
-    "datashaman/tongs-sass": "0.3.*"
-  },
   "config": {
     "optimize-autoloader": true,
     "preferred-install": "dist",
     "sort-packages": true
   },
+  "repositories": {
+    "tongs": {
+      "type": "path",
+      "url": "../tongs",
+      "options": {
+        "symlink": true
+      }
+    },
+    "tongs-feed": {
+      "type": "path",
+      "url": "../feed",
+      "options": {
+        "symlink": true
+      }
+    },
+    "tongs-metadata": {
+      "type": "path",
+      "url": "../metadata",
+      "options": {
+        "symlink": true
+      }
+    },
+    "tongs-more": {
+      "type": "path",
+      "url": "../more",
+      "options": {
+        "symlink": true
+      }
+    },
+    "tongs-permalinks": {
+      "type": "path",
+      "url": "../permalinks",
+      "options": {
+        "symlink": true
+      }
+    },
+    "tongs-sass": {
+      "type": "path",
+      "url": "../sass",
+      "options": {
+        "symlink": true
+      }
+    }
+  },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
-    "datashaman/tongs": "0.3.*"
+    "datashaman/tongs": "@dev",
+    "datashaman/tongs-feed": "@dev",
+    "datashaman/tongs-metadata": "@dev",
+    "datashaman/tongs-more": "@dev",
+    "datashaman/tongs-permalinks": "@dev",
+    "datashaman/tongs-sass": "@dev"
   }
 }

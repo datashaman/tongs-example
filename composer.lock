@@ -4,403 +4,16 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c1162b681005e4ce19bb2824d39d5aa",
-    "packages": [
-        {
-            "name": "datashaman/tongs-feed",
-            "version": "0.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/datashaman/tongs-feed.git",
-                "reference": "600250d3ba8e59f83e6719e7022ac6e6a886cacc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-feed/zipball/600250d3ba8e59f83e6719e7022ac6e6a886cacc",
-                "reference": "600250d3ba8e59f83e6719e7022ac6e6a886cacc",
-                "shasum": ""
-            },
-            "require-dev": {
-                "datashaman/tongs": "0.3.*",
-                "phpunit/phpunit": "^8.5"
-            },
-            "type": "library",
-            "extra": {
-                "tongs": {
-                    "plugins": {
-                        "feed": "Datashaman\\Tongs\\Plugins\\FeedPlugin"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Plugins\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marlin Forbes",
-                    "email": "marlinf@datashamab.com"
-                }
-            ],
-            "description": "Feed plugin for Tongs",
-            "keywords": [
-                "laravel",
-                "ssg",
-                "static-site",
-                "static-site-generator",
-                "tongs",
-                "tongs-plugin"
-            ],
-            "time": "2020-01-26T12:04:55+00:00"
-        },
-        {
-            "name": "datashaman/tongs-metadata",
-            "version": "0.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/datashaman/tongs-metadata.git",
-                "reference": "5e21a2a92481c9feb1e62a592cac48d68fb4bca0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-metadata/zipball/5e21a2a92481c9feb1e62a592cac48d68fb4bca0",
-                "reference": "5e21a2a92481c9feb1e62a592cac48d68fb4bca0",
-                "shasum": ""
-            },
-            "require": {
-                "symfony/yaml": "^4.0"
-            },
-            "require-dev": {
-                "datashaman/tongs": "0.3.*",
-                "phpunit/phpunit": "^8.5"
-            },
-            "type": "library",
-            "extra": {
-                "tongs": {
-                    "plugins": {
-                        "metadata": "Datashaman\\Tongs\\Plugins\\MetadataPlugin"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Plugins\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marlin Forbes",
-                    "email": "marlinf@datashaman.com"
-                }
-            ],
-            "description": "Metadata plugin for Tongs",
-            "keywords": [
-                "laravel",
-                "ssg",
-                "static-site",
-                "static-site-generator",
-                "tongs",
-                "tongs-plugin"
-            ],
-            "time": "2020-01-26T12:04:15+00:00"
-        },
-        {
-            "name": "datashaman/tongs-more",
-            "version": "0.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/datashaman/tongs-more.git",
-                "reference": "72bbdcf087b8391dddffb5f02c8b491258f20346"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-more/zipball/72bbdcf087b8391dddffb5f02c8b491258f20346",
-                "reference": "72bbdcf087b8391dddffb5f02c8b491258f20346",
-                "shasum": ""
-            },
-            "require-dev": {
-                "datashaman/tongs": "0.3.*",
-                "phpunit/phpunit": "^8.5"
-            },
-            "type": "library",
-            "extra": {
-                "tongs": {
-                    "plugins": {
-                        "more": "Datashaman\\Tongs\\Plugins\\MorePlugin"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Plugins\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marlin Forbes",
-                    "email": "marlinf@datashaman.com"
-                }
-            ],
-            "description": "More plugin for Tongs",
-            "keywords": [
-                "laravel",
-                "ssg",
-                "static-site",
-                "static-site-generator",
-                "tongs",
-                "tongs-plugin"
-            ],
-            "time": "2020-01-26T12:11:01+00:00"
-        },
-        {
-            "name": "datashaman/tongs-permalinks",
-            "version": "0.3.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/datashaman/tongs-permalinks.git",
-                "reference": "b55fa09d82144d915572ed70449727a1245416d0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/b55fa09d82144d915572ed70449727a1245416d0",
-                "reference": "b55fa09d82144d915572ed70449727a1245416d0",
-                "shasum": ""
-            },
-            "require-dev": {
-                "datashaman/tongs": "0.3.*",
-                "phpunit/phpunit": "^8.5"
-            },
-            "type": "library",
-            "extra": {
-                "tongs": {
-                    "plugins": {
-                        "permalinks": "Datashaman\\Tongs\\Plugins\\PermalinksPlugin"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Plugins\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marlin Forbes",
-                    "email": "marlinf@datashaman.com"
-                }
-            ],
-            "description": "Permalinks plugin for Tongs",
-            "keywords": [
-                "laravel",
-                "ssg",
-                "static-site",
-                "static-site-generator",
-                "tongs",
-                "tongs-plugin"
-            ],
-            "time": "2020-01-26T17:40:21+00:00"
-        },
-        {
-            "name": "datashaman/tongs-sass",
-            "version": "0.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/datashaman/tongs-sass.git",
-                "reference": "5d0f41d3b7d612d94502454345214bbdfac90fe7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs-sass/zipball/5d0f41d3b7d612d94502454345214bbdfac90fe7",
-                "reference": "5d0f41d3b7d612d94502454345214bbdfac90fe7",
-                "shasum": ""
-            },
-            "require-dev": {
-                "datashaman/tongs": "@dev",
-                "phpunit/phpunit": "^8.5"
-            },
-            "type": "library",
-            "extra": {
-                "tongs": {
-                    "plugins": {
-                        "sass": "Datashaman\\Tongs\\Plugins\\SassPlugin"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Plugins\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marlin Forbes",
-                    "email": "marlinf@datashaman.com"
-                }
-            ],
-            "description": "Sass plugin for Tongs",
-            "keywords": [
-                "laravel",
-                "ssg",
-                "static-site",
-                "static-site-generator",
-                "tongs",
-                "tongs-plugin"
-            ],
-            "time": "2020-01-27T17:12:24+00:00"
-        },
-        {
-            "name": "symfony/polyfill-ctype",
-            "version": "v1.13.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
-                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "suggest": {
-                "ext-ctype": "For best performance"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.13-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
-                "files": [
-                    "bootstrap.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill for ctype functions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "ctype",
-                "polyfill",
-                "portable"
-            ],
-            "time": "2019-11-27T13:56:44+00:00"
-        },
-        {
-            "name": "symfony/yaml",
-            "version": "v4.4.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/yaml.git",
-                "reference": "cd014e425b3668220adb865f53bff64b3ad21767"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/cd014e425b3668220adb865f53bff64b3ad21767",
-                "reference": "cd014e425b3668220adb865f53bff64b3ad21767",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3",
-                "symfony/polyfill-ctype": "~1.8"
-            },
-            "conflict": {
-                "symfony/console": "<3.4"
-            },
-            "require-dev": {
-                "symfony/console": "^3.4|^4.0|^5.0"
-            },
-            "suggest": {
-                "symfony/console": "For validating YAML files using the lint command"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Yaml\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Yaml Component",
-            "homepage": "https://symfony.com",
-            "time": "2020-01-21T11:12:16+00:00"
-        }
-    ],
+    "content-hash": "097fbfc54c9aa2d46fc4cdebe7596e2f",
+    "packages": [],
     "packages-dev": [
         {
             "name": "datashaman/tongs",
-            "version": "0.3.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/datashaman/tongs.git",
-                "reference": "7819438a4ffb6226ed241ab33440c6f053ee9768"
-            },
+            "version": "dev-master",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs/zipball/7819438a4ffb6226ed241ab33440c6f053ee9768",
-                "reference": "7819438a4ffb6226ed241ab33440c6f053ee9768",
-                "shasum": ""
+                "type": "path",
+                "url": "../tongs",
+                "reference": "47addf013d4de685e47796b6e45357baaace973a"
             },
             "require": {
                 "erusev/parsedown": "^1.7",
@@ -428,7 +41,6 @@
                         "collections": "Datashaman\\Tongs\\Plugins\\CollectionsPlugin",
                         "drafts": "Datashaman\\Tongs\\Plugins\\DraftsPlugin",
                         "markdown": "Datashaman\\Tongs\\Plugins\\MarkdownPlugin",
-                        "sass": "Datashaman\\Tongs\\Plugins\\SassPlugin",
                         "serve": "Datashaman\\Tongs\\Plugins\\ServePlugin",
                         "tap": "Datashaman\\Tongs\\Plugins\\TapPlugin",
                         "views": "Datashaman\\Tongs\\Plugins\\ViewsPlugin"
@@ -440,7 +52,11 @@
                     "Datashaman\\Tongs\\": "app/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Tests\\": "tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -460,7 +76,296 @@
                 "static-site-generator",
                 "tongs"
             ],
-            "time": "2020-01-27T15:52:08+00:00"
+            "support": {
+                "issues": "https://github.com/datashaman/tongs/issues",
+                "source": "https://github.com/datashaman/tongs"
+            },
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "datashaman/tongs-feed",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../feed",
+                "reference": "3c99bd9caa30519c1751483ff93699e5736e710b"
+            },
+            "require-dev": {
+                "datashaman/tongs": "0.3.*",
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "extra": {
+                "tongs": {
+                    "plugins": {
+                        "feed": "Datashaman\\Tongs\\Plugins\\FeedPlugin"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marlin Forbes",
+                    "email": "marlinf@datashamab.com"
+                }
+            ],
+            "description": "Feed plugin for Tongs",
+            "keywords": [
+                "laravel",
+                "ssg",
+                "static-site",
+                "static-site-generator",
+                "tongs",
+                "tongs-plugin"
+            ],
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "datashaman/tongs-metadata",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../metadata",
+                "reference": "ba229a27cb88108f6e0c40bae0bbe1ac350aaf3b"
+            },
+            "require": {
+                "symfony/yaml": "^4.0"
+            },
+            "require-dev": {
+                "datashaman/tongs": "0.3.*",
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "extra": {
+                "tongs": {
+                    "plugins": {
+                        "metadata": "Datashaman\\Tongs\\Plugins\\MetadataPlugin"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marlin Forbes",
+                    "email": "marlinf@datashaman.com"
+                }
+            ],
+            "description": "Metadata plugin for Tongs",
+            "keywords": [
+                "laravel",
+                "ssg",
+                "static-site",
+                "static-site-generator",
+                "tongs",
+                "tongs-plugin"
+            ],
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "datashaman/tongs-more",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../more",
+                "reference": "72bbdcf087b8391dddffb5f02c8b491258f20346"
+            },
+            "require-dev": {
+                "datashaman/tongs": "0.3.*",
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "extra": {
+                "tongs": {
+                    "plugins": {
+                        "more": "Datashaman\\Tongs\\Plugins\\MorePlugin"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marlin Forbes",
+                    "email": "marlinf@datashaman.com"
+                }
+            ],
+            "description": "More plugin for Tongs",
+            "keywords": [
+                "laravel",
+                "ssg",
+                "static-site",
+                "static-site-generator",
+                "tongs",
+                "tongs-plugin"
+            ],
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "datashaman/tongs-permalinks",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../permalinks",
+                "reference": "b55fa09d82144d915572ed70449727a1245416d0"
+            },
+            "require-dev": {
+                "datashaman/tongs": "0.3.*",
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "extra": {
+                "tongs": {
+                    "plugins": {
+                        "permalinks": "Datashaman\\Tongs\\Plugins\\PermalinksPlugin"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marlin Forbes",
+                    "email": "marlinf@datashaman.com"
+                }
+            ],
+            "description": "Permalinks plugin for Tongs",
+            "keywords": [
+                "laravel",
+                "ssg",
+                "static-site",
+                "static-site-generator",
+                "tongs",
+                "tongs-plugin"
+            ],
+            "transport-options": {
+                "symlink": true
+            }
+        },
+        {
+            "name": "datashaman/tongs-sass",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../sass",
+                "reference": "5d0f41d3b7d612d94502454345214bbdfac90fe7"
+            },
+            "require-dev": {
+                "datashaman/tongs": "@dev",
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "extra": {
+                "tongs": {
+                    "plugins": {
+                        "sass": "Datashaman\\Tongs\\Plugins\\SassPlugin"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Plugins\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marlin Forbes",
+                    "email": "marlinf@datashaman.com"
+                }
+            ],
+            "description": "Sass plugin for Tongs",
+            "keywords": [
+                "laravel",
+                "ssg",
+                "static-site",
+                "static-site-generator",
+                "tongs",
+                "tongs-plugin"
+            ],
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "doctrine/inflector",
@@ -1368,16 +1273,16 @@
         },
         {
             "name": "laravel-zero/foundation",
-            "version": "v6.10.0",
+            "version": "v6.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/foundation.git",
-                "reference": "0094f5017f56cbd392e8bf85b48d098a692eb900"
+                "reference": "894a9876d48f7bd36d8a7038fcf9559e89854ff3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/0094f5017f56cbd392e8bf85b48d098a692eb900",
-                "reference": "0094f5017f56cbd392e8bf85b48d098a692eb900",
+                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/894a9876d48f7bd36d8a7038fcf9559e89854ff3",
+                "reference": "894a9876d48f7bd36d8a7038fcf9559e89854ff3",
                 "shasum": ""
             },
             "require": {
@@ -1404,7 +1309,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-01-12T18:12:56+00:00"
+            "time": "2020-01-27T12:21:43+00:00"
         },
         {
             "name": "laravel-zero/framework",
@@ -2398,6 +2303,64 @@
             "time": "2020-01-04T13:00:46+00:00"
         },
         {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.13-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2019-11-27T13:56:44+00:00"
+        },
+        {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.13.1",
             "source": {
@@ -2887,6 +2850,65 @@
             "time": "2020-01-04T13:00:46+00:00"
         },
         {
+            "name": "symfony/yaml",
+            "version": "v4.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "cd014e425b3668220adb865f53bff64b3ad21767"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/cd014e425b3668220adb865f53bff64b3ad21767",
+                "reference": "cd014e425b3668220adb865f53bff64b3ad21767",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/polyfill-ctype": "~1.8"
+            },
+            "conflict": {
+                "symfony/console": "<3.4"
+            },
+            "require-dev": {
+                "symfony/console": "^3.4|^4.0|^5.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Yaml\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "https://symfony.com",
+            "time": "2020-01-21T11:12:16+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v3.6.0",
             "source": {
@@ -3014,7 +3036,14 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "datashaman/tongs": 20,
+        "datashaman/tongs-feed": 20,
+        "datashaman/tongs-metadata": 20,
+        "datashaman/tongs-more": 20,
+        "datashaman/tongs-permalinks": 20,
+        "datashaman/tongs-sass": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
