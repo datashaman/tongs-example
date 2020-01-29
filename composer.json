@@ -68,7 +68,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
-    "datashaman/tongs": "1.*.*",
+    "datashaman/tongs": "@dev",
     "datashaman/tongs-feed": "@dev",
     "datashaman/tongs-metadata": "@dev",
     "datashaman/tongs-more": "@dev",

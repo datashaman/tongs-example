@@ -4,22 +4,16 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6504fd15c46d159fb1f5b1fc5629a2fe",
+    "content-hash": "097fbfc54c9aa2d46fc4cdebe7596e2f",
     "packages": [],
     "packages-dev": [
         {
             "name": "datashaman/tongs",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/datashaman/tongs.git",
-                "reference": "0ae85756796ae7c3b4f29a963e7d3e4cbc7692aa"
-            },
+            "version": "dev-master",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/datashaman/tongs/zipball/0ae85756796ae7c3b4f29a963e7d3e4cbc7692aa",
-                "reference": "0ae85756796ae7c3b4f29a963e7d3e4cbc7692aa",
-                "shasum": ""
+                "type": "path",
+                "url": "../tongs",
+                "reference": "0ae85756796ae7c3b4f29a963e7d3e4cbc7692aa"
             },
             "require": {
                 "erusev/parsedown": "^1.7",
@@ -58,7 +52,11 @@
                     "Datashaman\\Tongs\\": "app/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Datashaman\\Tongs\\Tests\\": "tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -78,7 +76,13 @@
                 "static-site-generator",
                 "tongs"
             ],
-            "time": "2020-01-29T10:57:45+00:00"
+            "support": {
+                "issues": "https://github.com/datashaman/tongs/issues",
+                "source": "https://github.com/datashaman/tongs"
+            },
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "datashaman/tongs-feed",
@@ -86,10 +90,10 @@
             "dist": {
                 "type": "path",
                 "url": "../feed",
-                "reference": "3c99bd9caa30519c1751483ff93699e5736e710b"
+                "reference": "1ebc6cc3ccfe10703ee97e1f2f27121a2c25efc7"
             },
             "require-dev": {
-                "datashaman/tongs": "0.3.*",
+                "datashaman/tongs": "1.*.*",
                 "phpunit/phpunit": "^8.5"
             },
             "type": "library",
@@ -143,13 +147,13 @@
             "dist": {
                 "type": "path",
                 "url": "../metadata",
-                "reference": "ba229a27cb88108f6e0c40bae0bbe1ac350aaf3b"
+                "reference": "1c3d30b67ed9b9c0d73b318609c98a9bbe5cb755"
             },
             "require": {
                 "symfony/yaml": "^4.0"
             },
             "require-dev": {
-                "datashaman/tongs": "0.3.*",
+                "datashaman/tongs": "1.*.*",
                 "phpunit/phpunit": "^8.5"
             },
             "type": "library",
@@ -203,10 +207,10 @@
             "dist": {
                 "type": "path",
                 "url": "../more",
-                "reference": "72bbdcf087b8391dddffb5f02c8b491258f20346"
+                "reference": "bb10888749c2ae702e6e7aea8eaf0b9b08b26852"
             },
             "require-dev": {
-                "datashaman/tongs": "0.3.*",
+                "datashaman/tongs": "1.*.*",
                 "phpunit/phpunit": "^8.5"
             },
             "type": "library",
@@ -260,10 +264,10 @@
             "dist": {
                 "type": "path",
                 "url": "../permalinks",
-                "reference": "b55fa09d82144d915572ed70449727a1245416d0"
+                "reference": "7d8f350e2e8e91d251b6c8f871a731ebad6e6ce0"
             },
             "require-dev": {
-                "datashaman/tongs": "0.3.*",
+                "datashaman/tongs": "1.*.*",
                 "phpunit/phpunit": "^8.5"
             },
             "type": "library",
@@ -312,10 +316,10 @@
             "dist": {
                 "type": "path",
                 "url": "../sass",
-                "reference": "5d0f41d3b7d612d94502454345214bbdfac90fe7"
+                "reference": "f2cf5d837ff6cb4444c6a7d89dd05001e48d2530"
             },
             "require-dev": {
-                "datashaman/tongs": "@dev",
+                "datashaman/tongs": "1.*.*",
                 "phpunit/phpunit": "^8.5"
             },
             "type": "library",
@@ -593,16 +597,16 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v6.12.0",
+            "version": "v6.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
-                "reference": "e75f1a222cea581deb1da3072440eaba965b7283"
+                "reference": "807e85ee8af7013c7d2eefcc8e91d4d008f30d06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cache/zipball/e75f1a222cea581deb1da3072440eaba965b7283",
-                "reference": "e75f1a222cea581deb1da3072440eaba965b7283",
+                "url": "https://api.github.com/repos/illuminate/cache/zipball/807e85ee8af7013c7d2eefcc8e91d4d008f30d06",
+                "reference": "807e85ee8af7013c7d2eefcc8e91d4d008f30d06",
                 "shasum": ""
             },
             "require": {
@@ -640,11 +644,11 @@
             ],
             "description": "The Illuminate Cache package.",
             "homepage": "https://laravel.com",
-            "time": "2020-01-21T14:27:12+00:00"
+            "time": "2020-01-23T14:27:36+00:00"
         },
         {
             "name": "illuminate/config",
-            "version": "v6.12.0",
+            "version": "v6.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -688,7 +692,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v6.12.0",
+            "version": "v6.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -739,7 +743,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v6.12.0",
+            "version": "v6.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -783,7 +787,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v6.12.0",
+            "version": "v6.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -827,7 +831,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v6.12.0",
+            "version": "v6.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -872,16 +876,16 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v6.12.0",
+            "version": "v6.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "f94e71adfd9d4c9a8faaf5b3fe8e4c5f4be4c536"
+                "reference": "58c1d87e80f72bc09201107553a08471577fbe79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/f94e71adfd9d4c9a8faaf5b3fe8e4c5f4be4c536",
-                "reference": "f94e71adfd9d4c9a8faaf5b3fe8e4c5f4be4c536",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/58c1d87e80f72bc09201107553a08471577fbe79",
+                "reference": "58c1d87e80f72bc09201107553a08471577fbe79",
                 "shasum": ""
             },
             "require": {
@@ -920,11 +924,11 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "https://laravel.com",
-            "time": "2020-01-21T13:56:29+00:00"
+            "time": "2020-01-28T14:30:01+00:00"
         },
         {
             "name": "illuminate/log",
-            "version": "v6.12.0",
+            "version": "v6.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/log.git",
@@ -969,7 +973,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v6.12.0",
+            "version": "v6.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1014,16 +1018,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v6.12.0",
+            "version": "v6.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "0c6bf7cd56a63e46358e6443f90293e429546bc8"
+                "reference": "c6bcd329fd8c7c46908f1af7f99dae164a4065a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/0c6bf7cd56a63e46358e6443f90293e429546bc8",
-                "reference": "0c6bf7cd56a63e46358e6443f90293e429546bc8",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/c6bcd329fd8c7c46908f1af7f99dae164a4065a1",
+                "reference": "c6bcd329fd8c7c46908f1af7f99dae164a4065a1",
                 "shasum": ""
             },
             "require": {
@@ -1071,20 +1075,20 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2020-01-21T13:52:46+00:00"
+            "time": "2020-01-28T14:36:33+00:00"
         },
         {
             "name": "illuminate/view",
-            "version": "v6.12.0",
+            "version": "v6.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
-                "reference": "5a09e950d370ad6e3b2402707040b32cb28d6bef"
+                "reference": "1b691e94f8fe8c2e3f05d14a2f63e98cdb332ea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/view/zipball/5a09e950d370ad6e3b2402707040b32cb28d6bef",
-                "reference": "5a09e950d370ad6e3b2402707040b32cb28d6bef",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/1b691e94f8fe8c2e3f05d14a2f63e98cdb332ea4",
+                "reference": "1b691e94f8fe8c2e3f05d14a2f63e98cdb332ea4",
                 "shasum": ""
             },
             "require": {
@@ -1120,7 +1124,7 @@
             ],
             "description": "The Illuminate View package.",
             "homepage": "https://laravel.com",
-            "time": "2020-01-07T13:47:03+00:00"
+            "time": "2020-01-21T20:50:14+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -3033,6 +3037,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "datashaman/tongs": 20,
         "datashaman/tongs-feed": 20,
         "datashaman/tongs-metadata": 20,
         "datashaman/tongs-more": 20,
