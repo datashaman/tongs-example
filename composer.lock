@@ -4,16 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "097fbfc54c9aa2d46fc4cdebe7596e2f",
-    "packages": [],
-    "packages-dev": [
+    "content-hash": "023620b9f7d7f7da94d7fc44b45f289f",
+    "packages": [
         {
             "name": "datashaman/tongs",
-            "version": "dev-master",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datashaman/tongs.git",
+                "reference": "38010e8bdad512afed71b10f96f0b8258315b291"
+            },
             "dist": {
-                "type": "path",
-                "url": "../tongs",
-                "reference": "0ae85756796ae7c3b4f29a963e7d3e4cbc7692aa"
+                "type": "zip",
+                "url": "https://api.github.com/repos/datashaman/tongs/zipball/38010e8bdad512afed71b10f96f0b8258315b291",
+                "reference": "38010e8bdad512afed71b10f96f0b8258315b291",
+                "shasum": ""
             },
             "require": {
                 "erusev/parsedown": "^1.7",
@@ -52,11 +57,7 @@
                     "Datashaman\\Tongs\\": "app/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -76,21 +77,21 @@
                 "static-site-generator",
                 "tongs"
             ],
-            "support": {
-                "issues": "https://github.com/datashaman/tongs/issues",
-                "source": "https://github.com/datashaman/tongs"
-            },
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-01-29T11:22:29+00:00"
         },
         {
             "name": "datashaman/tongs-feed",
-            "version": "dev-master",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datashaman/tongs-feed.git",
+                "reference": "031b5bc50334db63fb83c8f0e448b86ad5bf6de6"
+            },
             "dist": {
-                "type": "path",
-                "url": "../feed",
-                "reference": "1ebc6cc3ccfe10703ee97e1f2f27121a2c25efc7"
+                "type": "zip",
+                "url": "https://api.github.com/repos/datashaman/tongs-feed/zipball/031b5bc50334db63fb83c8f0e448b86ad5bf6de6",
+                "reference": "031b5bc50334db63fb83c8f0e448b86ad5bf6de6",
+                "shasum": ""
             },
             "require-dev": {
                 "datashaman/tongs": "1.*.*",
@@ -109,16 +110,7 @@
                     "Datashaman\\Tongs\\Plugins\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Plugins\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -137,17 +129,21 @@
                 "tongs",
                 "tongs-plugin"
             ],
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-01-29T12:26:37+00:00"
         },
         {
             "name": "datashaman/tongs-metadata",
-            "version": "dev-master",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datashaman/tongs-metadata.git",
+                "reference": "6c34b7e31950ae53fb3565c2a2df06f73055899f"
+            },
             "dist": {
-                "type": "path",
-                "url": "../metadata",
-                "reference": "1c3d30b67ed9b9c0d73b318609c98a9bbe5cb755"
+                "type": "zip",
+                "url": "https://api.github.com/repos/datashaman/tongs-metadata/zipball/6c34b7e31950ae53fb3565c2a2df06f73055899f",
+                "reference": "6c34b7e31950ae53fb3565c2a2df06f73055899f",
+                "shasum": ""
             },
             "require": {
                 "symfony/yaml": "^4.0"
@@ -169,16 +165,7 @@
                     "Datashaman\\Tongs\\Plugins\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Plugins\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -197,17 +184,21 @@
                 "tongs",
                 "tongs-plugin"
             ],
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-01-29T12:30:51+00:00"
         },
         {
             "name": "datashaman/tongs-more",
-            "version": "dev-master",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datashaman/tongs-more.git",
+                "reference": "f40d9917fa6dc01fc6e7201bf7a8935ebc8771c3"
+            },
             "dist": {
-                "type": "path",
-                "url": "../more",
-                "reference": "bb10888749c2ae702e6e7aea8eaf0b9b08b26852"
+                "type": "zip",
+                "url": "https://api.github.com/repos/datashaman/tongs-more/zipball/f40d9917fa6dc01fc6e7201bf7a8935ebc8771c3",
+                "reference": "f40d9917fa6dc01fc6e7201bf7a8935ebc8771c3",
+                "shasum": ""
             },
             "require-dev": {
                 "datashaman/tongs": "1.*.*",
@@ -226,16 +217,7 @@
                     "Datashaman\\Tongs\\Plugins\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Plugins\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -254,17 +236,21 @@
                 "tongs",
                 "tongs-plugin"
             ],
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-01-29T12:33:35+00:00"
         },
         {
             "name": "datashaman/tongs-permalinks",
-            "version": "dev-master",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datashaman/tongs-permalinks.git",
+                "reference": "3259f957ce261fc8016b67670d223e9b77216b85"
+            },
             "dist": {
-                "type": "path",
-                "url": "../permalinks",
-                "reference": "7d8f350e2e8e91d251b6c8f871a731ebad6e6ce0"
+                "type": "zip",
+                "url": "https://api.github.com/repos/datashaman/tongs-permalinks/zipball/3259f957ce261fc8016b67670d223e9b77216b85",
+                "reference": "3259f957ce261fc8016b67670d223e9b77216b85",
+                "shasum": ""
             },
             "require-dev": {
                 "datashaman/tongs": "1.*.*",
@@ -283,11 +269,7 @@
                     "Datashaman\\Tongs\\Plugins\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Plugins\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -306,17 +288,21 @@
                 "tongs",
                 "tongs-plugin"
             ],
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-01-29T12:35:32+00:00"
         },
         {
             "name": "datashaman/tongs-sass",
-            "version": "dev-master",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datashaman/tongs-sass.git",
+                "reference": "c15e4845c1125e4468f004f0e9f047220bc1c5e6"
+            },
             "dist": {
-                "type": "path",
-                "url": "../sass",
-                "reference": "f2cf5d837ff6cb4444c6a7d89dd05001e48d2530"
+                "type": "zip",
+                "url": "https://api.github.com/repos/datashaman/tongs-sass/zipball/c15e4845c1125e4468f004f0e9f047220bc1c5e6",
+                "reference": "c15e4845c1125e4468f004f0e9f047220bc1c5e6",
+                "shasum": ""
             },
             "require-dev": {
                 "datashaman/tongs": "1.*.*",
@@ -335,16 +321,7 @@
                     "Datashaman\\Tongs\\Plugins\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Plugins\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "vendor/bin/phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -363,9 +340,7 @@
                 "tongs",
                 "tongs-plugin"
             ],
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-01-29T12:38:29+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -3034,16 +3009,10 @@
             "time": "2018-03-20T13:36:33+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "datashaman/tongs": 20,
-        "datashaman/tongs-feed": 20,
-        "datashaman/tongs-metadata": 20,
-        "datashaman/tongs-more": 20,
-        "datashaman/tongs-permalinks": 20,
-        "datashaman/tongs-sass": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
