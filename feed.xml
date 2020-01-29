@@ -3,15 +3,15 @@
   <title>Adventure Time!</title>
   <link>http://tongs-example.datashaman.com/</link>
   <entry>
-    <title>Breezy (Season 6)</title>
-    <link>http://tongs-example.datashaman.com//2014/06/05-breezy-season-6/</link>
-    <summary>&lt;p&gt;The episode begins with &lt;a href="http://adventuretime.wikia.com/wiki/Doctor_Princess"&gt;Doctor Princess&lt;/a&gt; examining Finn's flower arm, which is seen dull and has wilted some petals. He said that he had been drinking pickle juice a lot, but Doctor Princess told him to switch back to water.</summary>
-    <published>2014-06-05T10:33:56+00:00</published>
-  </entry>
-  <entry>
     <title>Food Chain (Season 6)</title>
-    <link>http://tongs-example.datashaman.com//2014/06/12-food-chain-season-6/</link>
+    <link>http://tongs-example.datashaman.com/2014/06/12-food-chain-season-6/index.html</link>
     <summary>&lt;p&gt;The episode begins with candy children that have bodies resembling different shapes sliding down a slide, shouting with excitement. The kids are viewed from an horizontal angle in the next scene as they go through a playground-like structure.</summary>
     <published>2014-06-12T10:33:56+00:00</published>
+  </entry>
+  <entry>
+    <title>Breezy (Season 6)</title>
+    <link>http://tongs-example.datashaman.com/2014/06/05-breezy-season-6/index.html</link>
+    <summary>&lt;p&gt;The episode begins with &lt;a href="http://adventuretime.wikia.com/wiki/Doctor_Princess"&gt;Doctor Princess&lt;/a&gt; examining Finn's flower arm, which is seen dull and has wilted some petals. He said that he had been drinking pickle juice a lot, but Doctor Princess told him to switch back to water.</summary>
+    <published>2014-06-05T10:33:56+00:00</published>
   </entry>
 </feed>
