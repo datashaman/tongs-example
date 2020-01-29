@@ -4,16 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "097fbfc54c9aa2d46fc4cdebe7596e2f",
+    "content-hash": "6504fd15c46d159fb1f5b1fc5629a2fe",
     "packages": [],
     "packages-dev": [
         {
             "name": "datashaman/tongs",
-            "version": "dev-master",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datashaman/tongs.git",
+                "reference": "c529fab8c057d903056f9ddb6691c5209cf01aba"
+            },
             "dist": {
-                "type": "path",
-                "url": "../tongs",
-                "reference": "47addf013d4de685e47796b6e45357baaace973a"
+                "type": "zip",
+                "url": "https://api.github.com/repos/datashaman/tongs/zipball/c529fab8c057d903056f9ddb6691c5209cf01aba",
+                "reference": "c529fab8c057d903056f9ddb6691c5209cf01aba",
+                "shasum": ""
             },
             "require": {
                 "erusev/parsedown": "^1.7",
@@ -52,11 +58,7 @@
                     "Datashaman\\Tongs\\": "app/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Datashaman\\Tongs\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -76,13 +78,7 @@
                 "static-site-generator",
                 "tongs"
             ],
-            "support": {
-                "issues": "https://github.com/datashaman/tongs/issues",
-                "source": "https://github.com/datashaman/tongs"
-            },
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-01-29T09:12:46+00:00"
         },
         {
             "name": "datashaman/tongs-feed",
@@ -3037,7 +3033,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "datashaman/tongs": 20,
         "datashaman/tongs-feed": 20,
         "datashaman/tongs-metadata": 20,
         "datashaman/tongs-more": 20,
